@@ -1,0 +1,21 @@
+<form>
+<fieldset>
+<p>
+<label>Cherry
+<input type="checkbox">
+</label>
+</p>
+<p>
+<label>Strawberry
+<input type="checkbox">
+</label>
+</p>
+<p>
+<label>
+<input type="checkbox">
+</label>
+</p>
+</fieldset>
+</form>
+
+

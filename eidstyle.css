@@ -1,0 +1,277 @@
+:root {
+    --primary-color: #d3d3d3;
+    --secondary-color: #2D2640;
+    --tertiary-color: #e3491d;
+    --quaternary-color: #3A1218;
+    --quinary-color: #e9f5d3;
+}
+
+* {
+    margin: 0px;
+    padding: : 0px;
+    box-sizing: border-box;
+}
+
+/* Global */
+
+body {
+    background: var(--quaternary-color);
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.45
+}
+
+/* Header */
+
+header {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    text-transform: uppercase;
+    border-bottom: 5px solid black;
+}
+
+
+header .col-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+    width: 250px;
+}
+
+header h1 {
+    font-size: 1em;
+    margin: 0px;
+    margin-right: 100px;
+    text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4);
+    padding-top: 10px;
+    z-index: 1000;
+    opacity: 5;
+}
+
+
+header .row {
+    margin: 0px;
+    padding: 0px;
+}
+
+header .col-8 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
+    margin-left: 250px;
+}
+
+header ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+header li {
+    display: inline;
+    padding: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1em;
+}
+
+header li:hover a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+
+header li:active {
+    position: relative;
+    top: 3px;
+    background: var(--primary-color);
+}
+
+header li:link {
+    background: var(--primary-color);
+}
+
+// Showcase //
+#showcase {
+    height: 400px;
+    width: 100%;
+}
+
+#showcase .img-div {
+    width: 100%;
+    height: 400px;
+    background: url(../image/Eid_Blessings_WDL6855.png) no-repeat center top;
+    background-size: cover;
+    border-bottom: 5px solid;
+    border-left: 3px solid;
+    border-right: 3px solid;
+}
+
+#showcase h2 {
+    color: var(--primary-color);
+    text-align: center;
+    padding: 12px;
+}
+
+#showcase p {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 1.1em;
+    font-style: italic
+}
+
+
+/* Main boxes */
+
+#main {
+    padding: 20px;
+    margin-left: 75px;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    width: 60%;
+}
+
+#main .content {
+    padding: 15px;
+    width: 250px;
+}
+
+#main img {
+    border-radius: 50%;
+    border: 2px solid var(--secondary-color);
+    background-size: cover;
+}
+
+#main h3 {
+    padding: 15px;
+    margin: 0px;
+}
+
+aside {
+    width: 450px;
+    float: right;
+    margin-top: -908px;
+    margin-right: 78px;
+    color: var(--primary-color);
+}
+
+aside h3,
+aside p {
+    padding: 10px;
+    text-align: center;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+aside li {
+    padding: 5px;
+    margin: 10px;
+}
+
+
+aside a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1.2em;
+}
+
+aside .address {
+    width: 50%;
+    border: 2px solid var(--primary-color);
+    margin-left: 100px;
+}
+
+
+footer {
+    color: var(--primary-color);
+    letter-spacing: 10px;
+    font-size: 0.75em;
+    height: 40px;
+}
+
+footer p {
+    text-align: center;
+    padding: 10px;
+    margin-left: 250px
+}
+
+
+@media (max-width: 780px) {
+    #main {
+        padding: 20px;
+        margin-left: 35px;
+        background: var(--primary-color);
+        color: var(--secondary-color);
+        width: 65%;
+    }
+
+    aside {
+        width: 200px;
+        float: right;
+        margin-top: -2561px;
+        margin-right: auto;
+        color: var(--primary-color);
+    }
+
+    aside h3,
+    aside p {
+        padding: 10px;
+    }
+
+    aside ul {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    aside li {
+        padding: 5px;
+        margin: 10px;
+    }
+
+
+    aside a {
+        text-decoration: none;
+        color: var(--primary-color);
+        font-size: 1em;
+    }
+
+    aside .address {
+        width: 100%;
+        border: 2px solid var(--primary-color);
+        margin-left: 0px;
+    }
+
+    footer {
+        color: var(--primary-color);
+        letter-spacing: 10px;
+        font-size: 0.75em;
+        height: 40px;
+    }
+
+    footer p {
+        text-align: center;
+        padding: 10px;
+        margin: 0px;
+    }
+
+
+
+}

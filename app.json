@@ -1,0 +1,17 @@
+{
+  "name": "Djeylani.github.io",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buidpack-ruby"
+    }
+  ]
+}
